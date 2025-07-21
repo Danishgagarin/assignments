@@ -1,0 +1,25 @@
+body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+}
+
+#container {
+      position: fixed;
+      bottom: 20px; /* Distance from the bottom */
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 10px;
+      padding: 10px;
+      background: white;
+      box-shadow: 0 5px 15px rgba(0,0,0,.30);
+      border-radius: 10px;
+} 
+
+#redButton {background-color: red;}
+#yellowButton {background-color: yellow;}
+#blackButton {background-color: black; color: white;}
+#purpleButton {background-color: purple;}
+#greenButton {background-color: green;}
+#blueButton {background-color: blue; }
